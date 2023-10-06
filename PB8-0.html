@@ -1,0 +1,397 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção egressos PPGS/UFF</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção egressos PPGS/UFF</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Apresentações de trabalho'}, 
+series: [{data: [[2021,
+43],
+[2022,
+18],
+[2023,
+18]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 122<br>
+                    
+                    
+                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANDRADE SILVA, S. R. <b>The War in Ukraine: Cultural codes and the narrative construction of meaning in the conflict</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANDRADE SILVA, S. R. <b>The Grammar of Art Scandals: A Contribution to Sociology of Art and Artworks</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ARAÚJO, A. C. S. <b>REMOÇÕES NO RIO DE JANEIRO: A TENTATIVA DO APAGAMENTO DA CULTURA NEGRA ATRAVÉS DO BRANQUEAMENTO DO TERRITÓRIO</b>. 2023. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ARAÚJO, A. C. S. <b>'SUB.URB.BIO ? vida, memórias e luta pela permanência de sentido do território da VILA das TORRES</b>. 2023. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ARAÚJO, A. C. S. <b>Território e Territorialidades: a construção do passado da Vila das Torres através das memórias coletivas</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>BLANCO, F. S. <b>As ilustrações sobre o conteúdo de Ciência Política nos livros didáticos de Sociologia do PNLD 2018 e 2021</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GONÇALVES, R. I. <b>Dia Internacional das Mulheres: Por que e para quê?</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LEME, A. A. ; JORGE, A. L.. <b>Decisões judiciais nos Tribunais Superiores de Justiça no Brasil e a disputa pelo direito ao território quilombola</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>LEME, A. A. ; JORGE, A. L.. <b>O direito territorial quilombola no Brasil: uma análise das decisões judiciais nos Tribunais Federais entre os anos de 1988 a 2020</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MILANI, C. S. ; DUARTE, R. S. ; PHILLIPS, J. C. T.. <b>O mundo multipolar e os caminhos para o desenvolvimento</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MORETTONI, Marina Marins; DINIZ, Aldilene Marinho César Almeida. <b>Literatura e Patrimônio: Gilberto Freyre e o Guia Prático, Histórico e Sentimental da Cidade de Olinda (PE)</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>POLYCARPO, Clara. <b>Negociação e construção de políticas na cidade: redes de política em torno do projeto Rio+Seguro e o controle urbano por meio das mídias digitais</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>Religião, política e relações étnico-raciais: uma análise socioantropológica do protestantismo negro de esquerda na luta antirracista</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>?Nem todo evangélico é conservador?: A relação entre religião e política no protestantismo de esquerda no Brasil</b>. 2023. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SANTOS, P. S. <b>Manoel José do Bomfim e Afonso Henriques de Lima Barreto: estudo comparado de suas interpretações acerca de uma República ?enferma?</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SOARES, D. V. <b>Assassinato de Crianças na Região Metropolitana do Rio de Janeiro - repercussão e resistência de 2007 a 2022</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SOARES, D. V. <b>Movements of Mothers of State Violence Victims Against Public Security Policy of State of Rio de Janeiro 2007-2022</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SOARES, D. V. <b>Etnografia de Protestos de Movimentos de Mãees e Familiares de Vítimas de Violência do Estado na cidade do Rio de Janeiro:2019 a 2022</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>COSTA, S. M. S. <b>Sentidos, Rendas e Conta Observações sociológicas sobre os usos do dinheiro em perspectiva comparada</b>. 2022. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>JORGE, AMANDA LACERDA. <b>direitos, avanços e desafios na construção e implementação das políticas públicas para as Comunidades Quilombolas</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MATTOS, R. A. <b>O humor político nas Eleições Legislativas de 2022</b>. 2022. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MORAIS, J. R. <b>A unidade ?Estado-nação? (Brasil) e a tradição do Cordel/Cantoria (Sertão): literatura, comunidade e identidade</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>PHILLIPS, J. C. T. <b>Educação e Orçamento Público</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>PHILLIPS, J. C. T.; RIBEIRO JUNIOR, V. E.. <b>Capacidades estatais desde um modelo sócio-centrado: o BNDES no dilema da dependência de trajetória e da mudança institucional</b>. 2022. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>?Nem todo evangélico é conservador?: Identidade, teologia e política entre evangélicos de esquerda no Brasil</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>?Nem todo evangélico é conservador?: Religião, política e contestação social entre evangélicos de esquerda no Brasil</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>?Nem todo evangélico é conservador?: Religião e política entre evangélicos de esquerda no Brasil</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>?Religión, política y lucha de clases: Friedrich Engels sobre el cristianismo primitivo?</b>. 2022. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>Apresentação do livro Religião e Revolução: a sociologia da religião de Friedrich Engels</b>. 2022. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>Introdução ao conceito de afinidade eletiva de Max Weber</b>. 2022. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SILVA, Giuliana Monteiro. <b>Respeita as mina: reflexões sobre o patriarcado, desigualdade e violência de gênero</b>. 2022. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SOARES, D. V. <b>Projeto Cidade Integrada e a contraposição: a resistência de Movimentos de Mães e Familiares de Vítimas da Violência do Estado</b>. 2022. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SOARES, D. V. <b>A política de segurança pública fluminense dos últimos 15 anos e os movimentos de resistência e denúncia a ela - Movimentos de Mães e Familiares de Vítimas da Violência do Estado</b>. 2022. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SOARES, D. V. <b>A trajetória de mulheres negras dentro dos Movimentos de Mães e Familiares de Vítimas da Violência do Estado</b>. 2022. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SOARES, D. V. <b>Justiça sob o Olhar das Mães de Acari: 30 anos depois</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SOARES, D. V. <b>Justiça sob os olhares das Mães de Acari</b>. 2022. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AFONSO, L. A. <b>CINEBOOK 1984</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AFONSO, L. A. <b>Como e o quê publicar em uma revista?</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bezerra, Marcos Otavio ; MOURA, G. S.. <b>Igrejas evangélicas e a luta contra a corrupção no Brasil</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BLANCO, F. S. <b>O futuro dos livros didáticos de sociologia frente aos (des)caminhos das políticas educacionais recentes</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CAMPOS, J. P. L. <b>Crise, Golpe e a Supressão dos direitos trabalhistas no Brasil: uma leitura do trabalho precário na plataforma digital a partir do pensamento de Alysson Mascaro</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CAMPOS, J. P. L. <b>Capitalismo de Plataforma e Precarização do Trabalho</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CAVALCANTI, Thiago José Bezerra. <b>Os Mayas nas mídias brasileiras: entre desinformação e fantasia</b>. 2021. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>CAVALCANTI, Thiago José Bezerra. <b>Descobrindo o Brasil: Por uma Historiografia Profunda dos Estudos Mayas em Língua Portuguesa</b>. 2021. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>CONTI, N. M.; CONTI, N. M.. <b>Políticas Públicas</b>. 2021. Desenvolvimento de material didático ou instrucional - DisciplinaoferecidaemcursosdegraduaçãonamodalidadeEad</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>ISIDORO GONÇALVES, Raquel.; NEVES, F. C. F.. <b>A participação social por mediação tecnológica como meio de valorização do solo e de manutenção do estado capitalista: Reflexões a partir de David Harvey</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>JORGE, A. L. <b>Povos e comunidades tradicionais, quilombos e conflitos territoriais</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>JORGE, A. L.; LEME, A. A.. <b>Comunidades quilombolas e a disputa pelo direito ao território nos Tribunais Federais de Justiça</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>JORGE, A. L.; LEME, A. A.. <b>Quilombo, Território e o campo jurídico: algumas reflexões</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>JORGE, A. L.; LEME, A. A.. <b>Terra, Território e Reconhecimento: comunidades remanescentes de quilombos no judiciário brasileiro</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>LENCINA DA SILVA, JULIANA. <b>'Men in the Realism of Machado De Assis and Rio De Janeiro of Nineteenth Century', Multiples Moderneties and Coloniaslim. IV ISA Forum of Sociology: Challenges of 21st Century. Democracy, environment, inequality and intersectionality - Internacional Sociological Association</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>LENCINA DA SILVA, JULIANA. <b>Relações entre a violência política contra mulheres no digital e a nova direita no Brasil (PPGCP/UFF)</b>. 2021. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>LENCINA DA SILVA, JULIANA; MAYALL, G. ; MATTOS, Renan. <b>Coordenação de Grupo de Trabalho: Práticas políticas e tecnologias digitais. (PPGS/UFMG)</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>MACIEL, B. <b>C. B.; Os conflitos da República Democrática do Congo e a ecologia pós-colonial: os limites entre o meio ambiente e as pessoas</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>MARTINS, P. D.. <b>A agenda de desenvolvimento urbano e as articulações de poder no município de João Pessoa, Paraíba</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>MARTINS, V. ; POLYCARPO, C.. <b>O reenquadramento de discursos sobre a pandemia a partir da mobilização de favelas e periferias</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>MONTEIRO, Giuliana. <b>Entre a norma e a prática:o fenômeno da corrupção no Brasil na interface da lei e do costume (1950-1960)</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>MORAIS, J. R. <b>A intelectualidade do cordel no Romance da Pedra do Reino: memória, história e identidade.,</b>. 2021. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>MORAIS, J. R. <b>O Romance da Pedra do Reino decifrando brasilidades: sertão, comunidade e identidade na obra de Ariano Suassuna</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>PAES, L. F. <b>O setor automotivo e a sociedade da mobilidade</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>POLYCARPO, Clara. <b>Brisa de mar, mar de gente: representações de uma Copacabana do auge à depressão</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>POLYCARPO, Clara. <b>(Re)enquadrando a pandemia através do discurso: reflexões a partir das favelas do Rio de Janeiro</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>POLYCARPO, Clara. <b>'Local limpo' e 'sem alteração': os agenciamentos de uma política municipal para controle do espaço urbano na Zona Sul do Rio de Janeiro</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>?Reafricanização dos espíritos?: A dimensão cultural no pensamento de Amílcar Cabral</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>Evangélicos de esquerda, juventude negra e contestação social: Uma análise sociológica do Movimento Negro Evangélico</b>. 2021. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>'Reafricanização dos espíritos': A dimensão cultural em Amílcar Cabral</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>RIBEIRO, WALLACE CABRAL. <b>Religião e política na trajetória intelectual de Friedrich Engels</b>. 2021. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>RODRIGUES, LAISSA. <b>Melancholy in Civilization- How the Development of Modern Capitalism Promoted the Disarticulation of Social Ties</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>RODRIGUES, LAISSA. <b>Who Watches the Watchmen?- an Analysis of the 21st Century Rio De Janeiro Military Police</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>RODRIGUES, LAISSA.; GOMES, J. A. P.. <b>Realidades Ajustadas- O Futuro da Sujeição Criminal</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>SANTOS, A. M. <b>Uma análise dos movimentos antirracistas</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>SANTOS, P. S.; LEME, A. A.. <b>A SOMBRA DA ESCRAVIDÃO E DA ABOLIÇÃO: a sociabilidade republicana no Brasil (1905-1920) na perspectiva de Manoel Bomfim e Lima Barreto ? um estudo comparado</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>SOARES, D. V. <b>A Luta das Mães de Acari por Justiça</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>SOARES, D. V. <b>A Luta das Mães de Acari por Justiça</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>SOARES, D. V. <b>The Struggle of Mothers of Acari for Justice</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>VICENTE, G. C. ; FREIRES, C. M. ; COSTA, I. M. ; MONTEIRO, S. T. ; MONTEIRO, S. T. ; TAVARES, M. M.. <b>Importância da Enfermagem acerca da promoção da Saúde do Homem na Atenção Primária</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>VILELLA, C. ; VAZ, C.. <b>Regras Fiscais no Brasil: Prática e Teoria</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>VITORINO, T. S. <b>Milton Santos e o pensamento social brasileiro: uma contribuic?a?o sociolo?gica</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>VITORINO, T. S. <b>Raça e Gênero na Geografia: qual é o 'lugar da negra' na universidade?</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>?Entre os muros da cidade: Condomínios horizontais fechados e segregação socioespacial na Barra da Tijuca. <b>2019</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>A disputa pelo monopólio ilegítimo da violência? O caso das milícias do Rio de Janeiro.. <b>2018</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>As milícias como empresas nos mercados informais do Rio de Janeiro. <b>2019</b>. 0. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>As águas que cortam lugares e (re)manejam vidas: notas sobre a requalificação e construção do parque linear do Rio Jaguaribe/PB. <b>2023</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; A religião e a produção da cidade: uma etnografia com a Pastoral de Favelas do Rio de Janeiro. <b>2021</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; A religião e a produção da cidade: uma etnografia com a Pastoral de Favelas do Rio de Janeiro. <b>2021</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; Crises, memórias e materialidades no Museu das Remoções. <b>2022</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; Crises, memórias e materialidades no Museu das Remoções. <b>2022</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; Habitare: cooperação e disputas entre Igreja Católica, Estado e movimentos sociais na construção de políticas habitacionais nas favelas do Rio de Janeiro.. <b>2022</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; Habitare: cooperação e disputas entre Igreja Católica, Estado e movimentos sociais na construção de políticas habitacionais nas favelas do Rio de Janeiro.. <b>2022</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; Interações entre Igreja, Estado e sociedade civil na construção de políticas públicas. <b>2021</b>. 0. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; Interações entre Igreja, Estado e sociedade civil na construção de políticas públicas. <b>2021</b>. 0. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; Live: Religião e a produção da cidade: um olhar sobre a Igreja Católica (palestrante). <b>2020</b>. 0. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; Live: Religião e a produção da cidade: um olhar sobre a Igreja Católica (palestrante). <b>2020</b>. 0. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; O papel das novas mídias sociais no contexto das jornadas de junho de 2013. <b>2015</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; O papel das novas mídias sociais no contexto das jornadas de junho de 2013. <b>2015</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; O papel de novas mídias sociais no contexto das jornadas de junho de 2013. <b>2015</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; O papel de novas mídias sociais no contexto das jornadas de junho de 2013. <b>2015</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; Sobre a atualização da gramática habitacional no Rio de Janeiro: a eleição de Crivella e a suposta retomada do discurso de urbanização.. <b>2018</b>. 0. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>BOTELHO,Breno; BOTELHO,Breno ; Sobre a atualização da gramática habitacional no Rio de Janeiro: a eleição de Crivella e a suposta retomada do discurso de urbanização.. <b>2018</b>. 0. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Cidades fortificadas: estudo de caso de um condomínio fechado na Barra da Tijuca. <b>2017</b>. 0. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Condomínios Horizontais Fechados e as novas configurações do espaço urbano. <b>2014</b>. 0. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Criminalizzazione, stigma e sicurezza urbana tra Italia e Brasile. <b>2022</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Da minha cadeira eu não saio não: notas sobre resistência(s) e afeto(s) em uma comunidade ameaçada de remoção em João Pessoa, PB.. <b>2023</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Entre os muros da cidade: condomínios e segregação socioespacial na Barra da Tijuca. <b>2017</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Estado, polícia, milícia e tráfico de drogas: uma reflexão acerca das inter-relações práticas e simbólicas. <b>2019</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Lado a lado: uma análise sócio-antropológica de um condomínio horizontal fechado. <b>2014</b>. 0. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>MORETTONI, Marina Marins; 'Mas isso, turista, é outra coisa': Gilberto Freyre e o guia prático, histórico e sentimental da cidade de Olinda-PE. <b>2022</b>. 0. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>MORETTONI, Marina Marins; Geração Beat e Jazz em meados do século XX. <b>2019</b>. 0. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Nem ausente, nem paralelo: o Estado e as transformações simbólicas das milícias do Rio de Janeiro. <b>2019</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Novas produções do espaço urbano: estudo de conjuntos residenciais na Barra da Tijuca. <b>2016</b>. 0. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Por dentro e por fora do Estado: as milícias do Rio de Janeiro e suas legitimações. <b>2020</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Por dentro e por fora do Estado: as milícias do Rio de Janeiro entre os mercados e o poder. <b>2021</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Redução de danos na Itália: algumas reflexões a partir do contexto de Perugia. <b>2023</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Saberes e práticas a partir de dois serviços de redução de danos na Itália, na cidade de Perugia. <b>2023</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Sobre as narrativas acerca das milícias do Rio de Janeiro. <b>2019</b>. 0. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>State, business and violence between the legal and the illegal: the militias of Rio de Janeiro. <b>2022</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>The militias of Rio de Janeiro between security, protection and markets. <b>2022</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>VIANNA, Mariana dos Santos; A ?BOA DENÚNCIA?: A produção dos relatos para a construção de informações na Central Disque-denúncia. <b>2015</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>VIANNA, Mariana S.; A gestão da informação na Central Disque-Denúncia. <b>2020</b>. 0. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>VIANNA, Mariana S.; Novas Tecnologias e Segurança Pública: uma análise sobre as transformações na obtenção de informação pela Central Disque-Denúncia. <b>2019</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>VIANNA, Mariana S.; Segurança Pública e Tecnologia reflexões sobre as relações entre humanos e não-humanos a partir dos meios de obtenção de informação pela Central Disque-Denúncia. <b>2019</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>VIANNA, Mariana S.; Segurança Pública e Tecnologia: as transformações tecnológicas nas formas de obtenção da informação na Central Disque-Denúncia. <b>2020</b>. 0. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2021 até 2023
+<br>Data de processamento: 06/10/2023 13:47:13<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:lucascorreiacarvalho@id.uff.br">lucascorreiacarvalho@id.uff.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
